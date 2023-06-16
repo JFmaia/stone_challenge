@@ -1,5 +1,3 @@
-import React from "react";
-
 export function Home(){
     return (
         <div>
@@ -9,7 +7,7 @@ export function Home(){
                 </nav>
             </header>
             <main>
-                
+
             </main>
         </div> 
     )
