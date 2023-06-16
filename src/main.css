@@ -4,3 +4,8 @@ html,body{
     background-color: #F7F9FD;
     color: #20252A;
 }
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
