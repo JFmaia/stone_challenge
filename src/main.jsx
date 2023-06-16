@@ -6,6 +6,7 @@ import './main.css'
 
 //Componente HOME
 import {Home} from './views/Home/home'
+import './views/Home/home.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
