@@ -10,3 +10,16 @@
     border: 2px solid #42EC9A;
     box-sizing: border-box;
 }
+
+.spanded{
+    padding: 16px 36px 16px 36px;
+    background-color: #42EC9A;
+    font-weight: 600;
+    line-height: 24px;
+    color: #20252A;
+    border-radius: 90px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #42EC9A;
+    box-sizing: border-box;
+}
