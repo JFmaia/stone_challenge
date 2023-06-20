@@ -12,7 +12,6 @@
 }
 
 .item-option{
-    font-family: 'Noto Sans', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     line-height: 24px;
@@ -34,7 +33,6 @@
 
 .hero{
     padding: 40px;
-    font-family: 'Noto Sans', sans-serif;
     background: url('../../assets/hero/background-hero.svg');
     background-size: cover;
 }
@@ -70,3 +68,43 @@
     color: #FFFFFF;
 }
 
+/* Section fees */
+
+.fees{
+    display: flex;
+    align-items: center;
+    padding: 106px 162px 106px 264px;
+    justify-content: space-between;
+}
+
+.fees-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.fees-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fees-text .title{
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-weight: 700;
+    max-width: 338px;
+}
+
+.fees-text strong{
+    color: #00A868;
+}
+
+.fees-text .subtext{
+    max-width: 314px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 26px;
+}
