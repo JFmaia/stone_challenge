@@ -1,5 +1,6 @@
 // Importando svg como component, logo da Stone
 import { ReactComponent as StoneLogo } from '../../assets/stone.svg';
+import { ReactComponent as FrontMachine } from '../../assets/fees/front-machine.svg';
 
 //Import button light
 import {ButtonLight} from '../../components/ButtonLight/ButtonLight';
@@ -31,6 +32,7 @@ export function Home(){
                 </nav>
             </header>
             <main>
+                {/* Section hero */}
                 <section className='section-hero'>
                     <div className='container hero'>
                         <div className='hero-content'>
@@ -48,6 +50,28 @@ export function Home(){
                         </div>
                     </div>
                 </section>
+                {/* Section hero */}
+
+                {/* Section fees */}
+                <section className='section-fees'>
+                    <div className='container fees'>
+                        <div className='fees-content'>
+                            <article className='fees-text'>
+                                <p className='title'>
+                                    Menos banco, <strong>mais negócio</strong> 
+                                </p>
+                                <p className='subtext'>
+                                    Solução financeira com taxas personalizadas e Conta PJ gratuita aberta em poucas horas, direto pelo celular. Sem burocracia, sem asteriscos e sem musiquinha
+                                </p>
+                            </article>
+                            <ButtonDark className="spanded">
+                                Descubra suas taxas
+                            </ButtonDark>
+                        </div>
+                        <FrontMachine/>
+                    </div>
+                </section>
+                {/* Section fees */}
             </main>
         </div> 
     )
