@@ -1,6 +1,7 @@
 // Importando svg como component, logo da Stone
 import { ReactComponent as StoneLogo } from '../../assets/stone.svg';
 import { ReactComponent as FrontMachine } from '../../assets/fees/front-machine.svg';
+import { ReactComponent as Arrow } from '../../assets/machine/arrow.svg';
 
 //Import button light
 import {ButtonLight} from '../../components/ButtonLight/ButtonLight';
@@ -53,7 +54,7 @@ export function Home(){
                 {/* Section hero */}
 
                 {/* Section fees */}
-                <section className='section-fees'>
+                <section>
                     <div className='container fees'>
                         <div className='fees-content'>
                             <article className='fees-text'>
@@ -72,6 +73,41 @@ export function Home(){
                     </div>
                 </section>
                 {/* Section fees */}
+
+                {/* Section little machine */}
+                <section>
+                    <div className='container little-machine'>
+                        <img className='img-machine' src="https://res.cloudinary.com/dunz5zfpt//f_auto,c_limit,w_640,q_auto/v1/site-stone/machine/pricing2" alt="Imagem da maquineta" height={458} width={458}/>
+                        <div className='little-machine-content'>
+                            <article className='little-machine-text'>
+                                <h2>
+                                    MAQUININHA DE CARTÃO
+                                </h2>
+                                <h1>
+                                    Maquininha rápida, inteligente e com taxas personalizadas
+                                </h1>
+                                <h3>
+                                    Feita pra vender mais: no débito ou no crédito, no Pix ou no voucher
+                                </h3>
+                            </article>
+                            <div className='little-machine-options'>
+                                <a href="" rel="noopener noreferrer">
+                                    <span>
+                                        Conheça a maquininha
+                                    </span>
+                                    <Arrow/>
+                                </a>
+                                <a href="" rel="noopener noreferrer">
+                                    <span>
+                                        Descubra suas taxas personalizadas
+                                    </span>
+                                    <Arrow/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* Section little machine */}
             </main>
         </div> 
     )
