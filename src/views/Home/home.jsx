@@ -2,7 +2,10 @@
 import { ReactComponent as StoneLogo } from '../../assets/stone.svg';
 import { ReactComponent as FrontMachine } from '../../assets/fees/front-machine.svg';
 import { ReactComponent as Arrow } from '../../assets/machine/arrow.svg';
-
+import { ReactComponent as AppStore } from '../../assets/used/app-story.svg';
+import { ReactComponent as PlayStore } from '../../assets/used/play-story.svg';
+import UsedMachine from '../../assets/used/used-machine.svg';
+import LittleMachine from '../../assets/machine/little-machine.svg';
 //Import button light
 import {ButtonLight} from '../../components/ButtonLight/ButtonLight';
 import "../../components/ButtonLight/ButtonLight.css";
@@ -77,9 +80,9 @@ export function Home(){
                 {/* Section little machine */}
                 <section>
                     <div className='container little-machine'>
-                        <img className='img-machine' src="https://res.cloudinary.com/dunz5zfpt//f_auto,c_limit,w_640,q_auto/v1/site-stone/machine/pricing2" alt="Imagem da maquineta" height={458} width={458}/>
+                        <img src={LittleMachine} alt="Imagem da maquineta"/>
                         <div className='little-machine-content'>
-                            <article className='little-machine-text'>
+                            <article className='text'>
                                 <h2>
                                     MAQUININHA DE CARTÃO
                                 </h2>
@@ -91,13 +94,13 @@ export function Home(){
                                 </h3>
                             </article>
                             <div className='little-machine-options'>
-                                <a href="" rel="noopener noreferrer">
+                                <a className='link-option' href="" rel="noopener noreferrer">
                                     <span>
                                         Conheça a maquininha
                                     </span>
                                     <Arrow/>
                                 </a>
-                                <a href="" rel="noopener noreferrer">
+                                <a className='link-option' href="" rel="noopener noreferrer">
                                     <span>
                                         Descubra suas taxas personalizadas
                                     </span>
@@ -108,6 +111,41 @@ export function Home(){
                     </div>
                 </section>
                 {/* Section little machine */}
+
+                {/* Section used machine */}
+                <section>
+                    <div className='container used-machine'>
+                        <div className='used-machine-content'>
+                            <article className='text'>
+                                <h2>
+                                    CONTA STONE PJ E PF
+                                </h2>
+                                <h1>
+                                    Conta PJ gratuita pra gerir seu negócio, antecipar seu dinheiro e vender online
+                                </h1>
+                                <h3>
+                                    Pague e venda com Pix, venda nas redes sociais com o Link de Pagamento, gere boletos e fique no controle do seu negócio com a Conta Stone
+                                </h3>
+                            </article>
+                            <a className='link-option' href="" rel="noopener noreferrer">
+                                <span>
+                                    Conheça a Conta Stone
+                                </span>
+                                <Arrow/>
+                            </a>
+                            <div className='content-apps'>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <PlayStore/>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <AppStore/>
+                                </a>
+                            </div>
+                        </div>
+                        <img src={UsedMachine} alt="Imagem demostrativa"/>
+                    </div>
+                </section>
+                {/* Section used machine */}
             </main>
         </div> 
     )
