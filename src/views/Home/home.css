@@ -193,3 +193,29 @@
     gap: 20px;
 }
 
+.lets-go{
+    background: #EFF4F8;
+    padding: 80px 253px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.lets-go-text{
+    max-width: 774px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.lets-go-text strong{
+    color: #00A868;
+}
+
+.lets-go-buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

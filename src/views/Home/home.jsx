@@ -146,6 +146,22 @@ export function Home(){
                     </div>
                 </section>
                 {/* Section used machine */}
+
+                {/* Section lets go */}
+                <section>
+                    <div className='container lets-go'>
+                        <h1 className='lets-go-text'>Seja Stone agora e ganhe tempo pro que realmente importa: <strong>seu negócio</strong></h1>
+                        <div className='lets-go-buttons'>
+                            <ButtonDark className="spanded">
+                                Descubra suas taxas
+                            </ButtonDark>
+                            <ButtonLight className="spanded-ligth">
+                                Abra sua conta
+                            </ButtonLight>
+                        </div>
+                    </div>
+                </section>
+                {/* Section lets go */}
             </main>
         </div> 
     )
