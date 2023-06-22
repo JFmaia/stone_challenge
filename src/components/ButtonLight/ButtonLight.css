@@ -11,3 +11,17 @@
     border-radius: 90px;
     cursor: pointer;
 }
+
+.spanded-ligth{
+    padding: 16px 36px 16px 36px;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Noto Sans';
+    line-height: 24px;
+    color: #20252A;
+    border-radius: 90px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #E8E8E8;
+    box-sizing: border-box;
+}
