@@ -219,3 +219,37 @@
     align-items: center;
     gap: 16px;
 }
+
+.contact{
+    background:#31383F;
+    padding: 80px 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+}
+
+.contact-article{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contact-article h1{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.contact-article h2{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+}

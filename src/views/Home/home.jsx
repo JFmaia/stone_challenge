@@ -6,6 +6,10 @@ import { ReactComponent as AppStore } from '../../assets/used/app-story.svg';
 import { ReactComponent as PlayStore } from '../../assets/used/play-story.svg';
 import UsedMachine from '../../assets/used/used-machine.svg';
 import LittleMachine from '../../assets/machine/little-machine.svg';
+import { ReactComponent as Attendance} from '../../assets/contact/attendance.svg';
+import { ReactComponent as Ecommerce } from '../../assets/contact/ecommerce.svg';
+import { ReactComponent as Jobs } from '../../assets/contact/jobs.svg';
+
 //Import button light
 import {ButtonLight} from '../../components/ButtonLight/ButtonLight';
 import "../../components/ButtonLight/ButtonLight.css";
@@ -29,7 +33,7 @@ export function Home(){
                         <a className='item-option' href="">Atendimento</a>
                         <a className='item-option' href="">Baixe o app</a>
                         <div className='box-buttons'>
-                            <ButtonLight>Login</ButtonLight>
+                            <ButtonLight className="">Login</ButtonLight>
                             <ButtonDark className="">Seja Stone</ButtonDark>
                         </div>
                     </div>
@@ -162,6 +166,52 @@ export function Home(){
                     </div>
                 </section>
                 {/* Section lets go */}
+
+                {/* Section contact*/}
+                <section>
+                    <div className='container contact'>
+                        <div className='contact-box'>
+                            <article className='contact-article'>
+                                <Attendance/>
+                                <h1>Fale com a gente</h1>
+                                <h2>Seja atendido pelo nosso time</h2>
+                            </article>
+                            <a className='link-option' href="" rel="noopener noreferrer">
+                                <span>
+                                    Atendimento
+                                </span>
+                                <Arrow/>
+                            </a>
+                        </div>
+                        <div className='contact-box'>
+                            <article className='contact-article'>
+                                <Ecommerce/>
+                                <h1>Trabalhe conosco</h1>
+                                <h2>Transforme seu potencial em potência</h2>
+                            </article>
+                            <a className='link-option' href="" rel="noopener noreferrer">
+                                <span>
+                                    Conheça
+                                </span>
+                                <Arrow/>
+                            </a>
+                        </div>
+                        <div className='contact-box'>
+                            <article className='contact-article'>
+                                <Jobs/>
+                                <h1>E-commerce</h1>
+                                <h2>Soluções pra quem já tem loja virtual</h2>
+                            </article>
+                            <a className='link-option' href="" rel="noopener noreferrer">
+                                <span>
+                                    Conheça
+                                </span>
+                                <Arrow/>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                {/* Section contact*/}
             </main>
         </div> 
     )
