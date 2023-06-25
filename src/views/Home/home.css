@@ -253,3 +253,17 @@
     font-weight: 600;
     line-height: 24px;
 }
+
+footer{
+    background:#20252A;
+    padding: 80px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}

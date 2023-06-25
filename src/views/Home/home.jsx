@@ -9,6 +9,11 @@ import LittleMachine from '../../assets/machine/little-machine.svg';
 import { ReactComponent as Attendance} from '../../assets/contact/attendance.svg';
 import { ReactComponent as Ecommerce } from '../../assets/contact/ecommerce.svg';
 import { ReactComponent as Jobs } from '../../assets/contact/jobs.svg';
+import { ReactComponent as Facebook} from '../../assets/footer/facebook-icon.svg';
+import { ReactComponent as Instagram } from '../../assets/footer/instagram-icon.svg';
+import { ReactComponent as Linkedin } from '../../assets/footer/linkedin-icon.svg';
+import { ReactComponent as Twitter} from '../../assets/footer/twitter-icon.svg';
+import { ReactComponent as Youtube } from '../../assets/footer/youtube-icon.svg';
 
 //Import button light
 import {ButtonLight} from '../../components/ButtonLight/ButtonLight';
@@ -212,6 +217,29 @@ export function Home(){
                     </div>
                 </section>
                 {/* Section contact*/}
+
+                {/* Footer */}
+                <footer>
+                    <StoneLogo/>
+                    <div className='footer-social'>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <Facebook/>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <Twitter/>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <Instagram/>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <Linkedin/>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <Youtube/>
+                        </a>
+                    </div>
+                </footer>
+                {/* Footer */}
             </main>
         </div> 
     )
